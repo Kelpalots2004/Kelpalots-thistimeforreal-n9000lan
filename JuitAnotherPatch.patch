@@ -1,0 +1,17 @@
+Index: app/src/main/java/com/example/fifthtimeisacharm/Constants.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/fifthtimeisacharm/Constants.java b/app/src/main/java/com/example/fifthtimeisacharm/Constants.java
+--- a/app/src/main/java/com/example/fifthtimeisacharm/Constants.java	(revision c3d942facb71e8af21032c464153432f7111aa72)
++++ b/app/src/main/java/com/example/fifthtimeisacharm/Constants.java	(date 1655331114754)
+@@ -121,6 +121,6 @@
+     public static final HashMap<String, String> DIRECT_TOKENIZATION_PARAMETERS =
+             new HashMap<String, String>() {{
+                 put("protocolVersion", "ECv2");
+-                put("publicKey", DIRECT_TOKENIZATION_PUBLIC_KEY);
++                put("AIzaSyAq-TQOgcCrzDSVaGJ8KbnlcgY0n-1LQoA", DIRECT_TOKENIZATION_PUBLIC_KEY);
+             }};
+ }
+\ No newline at end of file
