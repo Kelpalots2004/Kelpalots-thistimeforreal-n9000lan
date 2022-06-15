@@ -1,0 +1,359 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision fc17c360302c8efc71706ed39b363f0ca4eb2637)
++++ b/.idea/misc.xml	(date 1655271953479)
+@@ -48,6 +48,7 @@
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/drawable/googlepay_button_overlay8.xml" value="0.1935" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/drawable/googlepay_button_overlay9.xml" value="0.1935" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.11914323962516733" />
++        <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout-w1240dp/activity_scrolling1.xml" value="0.11914323962516733" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1390625" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/activity_checkout.xml" value="0.33" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/activity_checkout10.xml" value="0.18541666666666667" />
+@@ -62,6 +63,10 @@
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/activity_checkout9.xml" value="0.18541666666666667" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/activity_login.xml" value="0.18541666666666667" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/activity_main.xml" value="0.1" />
++        <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/activity_scrolling.xml" value="0.33" />
++        <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/activity_scrolling2.xml" value="0.18541666666666667" />
++        <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/activity_scrolling3.xml" value="0.1796875" />
++        <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/activity_scrolling4.xml" value="0.1796875" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/buy_with_googlepay_button.xml" value="0.18541666666666667" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/buy_with_googlepay_button1.xml" value="0.18541666666666667" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/buy_with_googlepay_button10.xml" value="0.18541666666666667" />
+@@ -74,7 +79,12 @@
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/buy_with_googlepay_button7.xml" value="0.18541666666666667" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/buy_with_googlepay_button8.xml" value="0.18541666666666667" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/buy_with_googlepay_button9.xml" value="0.18541666666666667" />
++        <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/content_scrolling.xml" value="0.18541666666666667" />
++        <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
++        <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/fragment_dashboard1.xml" value="0.1" />
++        <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/fragment_dashboard2.xml" value="0.14612452350698857" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/fragment_home.xml" value="0.1" />
++        <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/layout/fragment_notifications.xml" value="0.18541666666666667" />
+         <entry key="..\:/Users/death/OneDrive/Documents/Fifthtimeisacharm/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
+       </map>
+     </option>
+Index: app/src/main/res/layout/fragment_dashboard2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/fragment_dashboard2.xml b/app/src/main/res/layout/fragment_dashboard2.xml
+new file mode 100644
+--- /dev/null	(date 1655271953452)
++++ b/app/src/main/res/layout/fragment_dashboard2.xml	(date 1655271953452)
+@@ -0,0 +1,82 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".ui.dashboard.DashboardFragment">
++
++    <TextView
++        android:id="@+id/text_dashboard"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="800dp"
++        android:layout_marginTop="800dp"
++        android:layout_marginEnd="800dp"
++        android:textAlignment="center"
++        android:textSize="38sp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <EditText
++        android:id="@+id/editTextTextPersonName"
++        android:layout_width="678dp"
++        android:layout_height="148dp"
++        android:layout_marginTop="32dp"
++        android:ems="10"
++        android:inputType="textCompanysname"
++        android:text="KELPALOTS TECHANCE NETWORK"
++        app:layout_constraintTop_toTopOf="parent"
++        tools:layout_editor_absoluteX="54dp" />
++
++    <ImageView
++        android:id="@+id/imageView17"
++        android:layout_width="430dp"
++        android:layout_height="257dp"
++        android:src="@drawable/coral_hexad_by_kelpalots_d6tc4et"
++        tools:layout_editor_absoluteX="-10dp"
++        tools:layout_editor_absoluteY="188dp" />
++
++    <ImageView
++        android:id="@+id/imageView21"
++        android:layout_width="408dp"
++        android:layout_height="356dp"
++        android:src="@drawable/images"
++        tools:layout_editor_absoluteX="22dp"
++        tools:layout_editor_absoluteY="489dp" />
++
++    <ImageView
++        android:id="@+id/imageView22"
++        android:layout_width="449dp"
++        android:layout_height="567dp"
++        android:src="@drawable/cute_face_by_kelpalots_d7llhr4"
++        tools:layout_editor_absoluteX="6dp"
++        tools:layout_editor_absoluteY="874dp" />
++
++    <ImageView
++        android:id="@+id/imageView23"
++        android:layout_width="520dp"
++        android:layout_height="332dp"
++        android:src="@drawable/dianna_by_kelpalots_d5nd58q"
++        tools:layout_editor_absoluteX="16dp"
++        tools:layout_editor_absoluteY="1470dp" />
++
++    <ImageView
++        android:id="@+id/imageView24"
++        android:layout_width="440dp"
++        android:layout_height="343dp"
++        android:src="@drawable/elip_by_kelpalots_dextbvy"
++        tools:layout_editor_absoluteX="44dp"
++        tools:layout_editor_absoluteY="1834dp" />
++
++    <ImageView
++        android:id="@+id/imageView26"
++        android:layout_width="497dp"
++        android:layout_height="445dp"
++        android:src="@drawable/figure_3___red_vs_blue_quasar__not_annotated_"
++        tools:layout_editor_absoluteX="16dp"
++        tools:layout_editor_absoluteY="2206dp" />
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/fragment_dashboard.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/fragment_dashboard.xml b/app/src/main/res/layout/fragment_dashboard.xml
+--- a/app/src/main/res/layout/fragment_dashboard.xml	(revision fc17c360302c8efc71706ed39b363f0ca4eb2637)
++++ b/app/src/main/res/layout/fragment_dashboard.xml	(date 1655270715032)
+@@ -10,13 +10,97 @@
+         android:id="@+id/text_dashboard"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+-        android:layout_marginStart="8dp"
+-        android:layout_marginTop="8dp"
+-        android:layout_marginEnd="8dp"
++        android:layout_marginStart="800dp"
++        android:layout_marginTop="800dp"
++        android:layout_marginEnd="800dp"
+         android:textAlignment="center"
+-        android:textSize="20sp"
++        android:textSize="38sp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
++
++    <ImageView
++        android:id="@+id/imageView"
++        android:layout_width="552dp"
++        android:layout_height="526dp"
++        android:src="@drawable/Away_From_The_CITY"
++        tools:layout_editor_absoluteX="113dp"
++        tools:layout_editor_absoluteY="168dp" />
++
++    <ImageView
++        android:id="@+id/imageView2"
++        android:layout_width="525dp"
++        android:layout_height="504dp"
++        android:src="@drawable/EonY1TPWMAA9nY5"
++        tools:layout_editor_absoluteX="126dp"
++        tools:layout_editor_absoluteY="754dp" />
++
++    <ImageView
++        android:id="@+id/imageView3"
++        android:layout_width="577dp"
++        android:layout_height="515dp"
++        android:src="@drawable/EonY1phW4AA1d5n"
++        tools:layout_editor_absoluteX="113dp"
++        tools:layout_editor_absoluteY="1295dp" />
++
++    <ImageView
++        android:id="@+id/imageView5"
++        android:layout_width="801dp"
++        android:layout_height="421dp"
++        android:src="@drawable/PSX_20200815_230935"
++        tools:layout_editor_absoluteX="-4dp"
++        tools:layout_editor_absoluteY="1794dp" />
++
++    <ImageView
++        android:id="@+id/imageView6"
++        android:layout_width="704dp"
++        android:layout_height="375dp"
++        android:src="@drawable/PSX_20200819_024454"
++        tools:layout_editor_absoluteX="38dp"
++        tools:layout_editor_absoluteY="2278dp" />
++
++    <ImageView
++        android:id="@+id/imageView7"
++        android:layout_width="659dp"
++        android:layout_height="655dp"
++        android:src="@drawable/PX00Z4AG1RFront"
++        tools:layout_editor_absoluteX="92dp"
++        tools:layout_editor_absoluteY="2671dp" />
++
++    <ImageView
++        android:id="@+id/imageView8"
++        android:layout_width="622dp"
++        android:layout_height="720dp"
++        android:src="@drawable/apo_weekly_challange_no_3_by_kelpalots_d6px46o"
++        tools:layout_editor_absoluteX="117dp"
++        tools:layout_editor_absoluteY="3363dp" />
++
++    <ImageView
++        android:id="@+id/imageView9"
++        android:layout_width="837dp"
++        android:layout_height="654dp"
++        android:src="@drawable/cover"
++        tools:layout_editor_absoluteX="24dp"
++        tools:layout_editor_absoluteY="4140dp" />
++
++    <ImageView
++        android:id="@+id/imageView10"
++        android:layout_width="795dp"
++        android:layout_height="629dp"
++        android:src="@drawable/that_looks_cool_by_kelpalots_d8zg4wm"
++        tools:layout_editor_absoluteX="50dp"
++        tools:layout_editor_absoluteY="4839dp" />
++
++    <EditText
++        android:id="@+id/editTextTextPersonName"
++        android:layout_width="678dp"
++        android:layout_height="148dp"
++        android:layout_marginTop="24dp"
++        android:ems="10"
++        android:inputType="textCompanysname"
++        android:text="KELPALOTS TECHANCE NETWORK"
++        app:layout_constraintTop_toTopOf="parent"
++        tools:layout_editor_absoluteX="214dp" />
++
+ </androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/fragment_dashboard1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/fragment_dashboard1.xml b/app/src/main/res/layout/fragment_dashboard1.xml
+new file mode 100644
+--- /dev/null	(date 1655271286156)
++++ b/app/src/main/res/layout/fragment_dashboard1.xml	(date 1655271286156)
+@@ -0,0 +1,90 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".ui.dashboard.DashboardFragment">
++
++    <TextView
++        android:id="@+id/text_dashboard"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="800dp"
++        android:layout_marginTop="800dp"
++        android:layout_marginEnd="800dp"
++        android:textAlignment="center"
++        android:textSize="38sp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <EditText
++        android:id="@+id/editTextTextPersonName"
++        android:layout_width="678dp"
++        android:layout_height="148dp"
++        android:layout_marginTop="24dp"
++        android:ems="10"
++        android:inputType="textCompanysname"
++        android:text="KELPALOTS TECHANCE NETWORK"
++        app:layout_constraintTop_toTopOf="parent"
++        tools:layout_editor_absoluteX="214dp" />
++
++    <ImageView
++        android:id="@+id/imageView4"
++        android:layout_width="849dp"
++        android:layout_height="638dp"
++        android:src="@drawable/a_beautiful_almost_new_years_by_kelpalots_d8bz5al"
++        tools:layout_editor_absoluteX="2dp"
++        tools:layout_editor_absoluteY="172dp" />
++
++    <ImageView
++        android:id="@+id/imageView11"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:src="@drawable/a_real_shot_of_the_moon_by_kelpalots_d7m0ewz"
++        tools:layout_editor_absoluteX="0dp"
++        tools:layout_editor_absoluteY="736dp" />
++
++    <ImageView
++        android:id="@+id/imageView12"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:src="@drawable/adobestock_284414835_985x665"
++        tools:layout_editor_absoluteX="16dp"
++        tools:layout_editor_absoluteY="1486dp" />
++
++    <ImageView
++        android:id="@+id/imageView13"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:src="@drawable/apoplexy_within_a_void_by_psychoticamber_daau0y"
++        tools:layout_editor_absoluteX="0dp"
++        tools:layout_editor_absoluteY="2984dp" />
++
++    <ImageView
++        android:id="@+id/imageView14"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:src="@drawable/bipolar_cpow2_hyperbolic_diamond_spiralx2_by_kelpalots_d6ghls0"
++        tools:layout_editor_absoluteX="0dp"
++        tools:layout_editor_absoluteY="3570dp" />
++
++    <ImageView
++        android:id="@+id/imageView15"
++        android:layout_width="979dp"
++        android:layout_height="679dp"
++        android:src="@drawable/cloudburst_corral_by_kelpalots_d7n0moz"
++        tools:layout_editor_absoluteX="-48dp"
++        tools:layout_editor_absoluteY="4499dp" />
++
++    <ImageView
++        android:id="@+id/imageView16"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:src="@drawable/clx_anubis_wallpaper_4k"
++        tools:layout_editor_absoluteX="-15dp"
++        tools:layout_editor_absoluteY="1486dp" />
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+diff --git a/app/src/main/res/drawable/Away_From_The_CITY.jpg b/app/src/main/res/drawable/Away_From_The_CITY.jpg
+deleted file mode 100644
+index f791a95d5e422f275a6410b7380ea6c0cffe2e92..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/drawable/PX00Z4AG1RFront.jpg b/app/src/main/res/drawable/PX00Z4AG1RFront.jpg
+deleted file mode 100644
+index 8111a25113a030fbda9192fdaecd77b25f463d87..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
